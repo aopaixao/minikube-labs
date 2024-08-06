@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hellokube
+spec:
+  selector:
+    app: hellokube
+  ports:
+    - protocol: TCP
+      port: 3095
+      targetPort: 3095
+  type: LoadBalancer 

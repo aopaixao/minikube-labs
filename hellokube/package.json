@@ -1,0 +1,12 @@
+{
+  "name": "nodejs_hellworld",
+  "version": "1.0.0",
+  "description": "Nodejs Hello Express World",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
