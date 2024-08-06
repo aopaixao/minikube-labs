@@ -1,3 +1,7 @@
+# Ref
+
+https://www.baeldung.com/ops/docker-local-images-minikube
+
 # Criar um pod a partir da imagem da aplicação gerada
 kubectl run container-nodejshelloworld --image=apaixao/nodejs_helloworld --image-pull-policy=Never --restart=Never
 
